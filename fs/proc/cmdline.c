@@ -12,6 +12,7 @@
 
 #ifdef ALTER_CMDLINE
 #include <asm/setup.h>
+#endif
 
 #ifdef CONFIG_INITRAMFS_IGNORE_SKIP_FLAG
 #define INITRAMFS_STR_FIND "skip_initramf"

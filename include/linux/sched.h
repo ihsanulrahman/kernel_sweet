@@ -1453,11 +1453,6 @@ struct task_struct {
 		bool free_stack;
 	} async_free;
 
-	struct {
-		struct work_struct work;
-		atomic_t running;
-		bool free_stack;
-	} async_free;
 
 #ifdef CONFIG_KSU_SUSFS
 	u64 android_kabi_reserved8;
